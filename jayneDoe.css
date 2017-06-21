@@ -1,8 +1,8 @@
 #wrapper {
-    width: 970 px;
-    height: auto;
-    background: purple;
-    overflow: hidden;
+    width: 970px;
+    /*height: auto;*/
+    background: darkblue;
+    /*overflow: hidden;*/
 }
 
 #intro {
@@ -12,33 +12,83 @@
 }
 
 #intro_text {
-    vertical-align: middle;
-    height: auto;
-    padding-bottom: 50px;
+    /*vertical-align: middle;*/
+    /*height: auto;*/
+    /*padding-bottom: 50px;*/
 }
 
 #name {
     display: inline-block;
+    vertical-align: top;
+    margin: 0px;
     margin-left: 20px;
-    padding-bottom: 80px;
+    /*padding-bottom: 80px;*/
     line-height: 75px;
     font-size: 30px;
 }
 
 #tagline {
     display: inline-block;
-    text-align: right;
-    float: right;
-    margin-right: 20px;
-    padding-bottom: 45px;
+    /*text-align: right;*/
+    /*float: right;*/
+    margin: 0px;
+    margin-left: 500px;
+    /*padding-bottom: 45px;*/
     line-height: 75px;
     font-size: 20px;
 }
 
 .top_content {
-    height: 200px;
+    height: 275px;
+    width: 425px;
     background: silver;
     display: inline-block;
-    width: 40%;
+    margin: 1px;
+    margin-top: 40px;
+    margin-left: 33px;
+    vertical-align: top;
 }
 
+.bottom_content {
+    height: 271px;
+    width: 293px;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 20px;
+    background: silver;
+}
+
+#head_shot_pic {
+   height: 100%;
+   width: 100%;
+
+}
+
+#head_shot {
+    border: 5px solid gray;
+}
+
+#about {
+    vertical-align: top;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+#about_the_about h3 {
+    width: 410px;
+    height: 45px;
+    vertical-align: top;
+    background: black;
+    color: white;
+}
+
+#about_the_about h3 {
+    margin-top: 0px;
+    line-height: 45px;
+    padding-left: 15px;
+    font-size: 28px;
+}
+
+#about_text {
+    margin: 10px;
+}
