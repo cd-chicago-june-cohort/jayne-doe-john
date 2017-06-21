@@ -1,17 +1,17 @@
 #wrapper {
     width: 970px;
-    /*height: auto;*/
-    background: darkblue;
-    /*overflow: hidden;*/
+    height: auto;
+    background: linear-gradient(to right, rgb(72, 52, 60), rgb(111, 89, 100), rgb(72, 52, 60));
+    
 }
 
-#intro {
+#intro, #outro {
     width: 100%;
     height: 75px;
-    background: silver;
+    background: rgb(249, 249, 249);
 }
 
-#intro_text {
+#intro_text, #outro_text {
     /*vertical-align: middle;*/
     /*height: auto;*/
     /*padding-bottom: 50px;*/
@@ -40,23 +40,15 @@
 
 .top_content {
     height: 275px;
-    width: 425px;
-    background: silver;
+    width: 445px;
     display: inline-block;
     margin: 1px;
     margin-top: 40px;
-    margin-left: 33px;
+    margin-left: 20px;
     vertical-align: top;
 }
 
-.bottom_content {
-    height: 271px;
-    width: 293px;
-    display: inline-block;
-    margin-top: 25px;
-    margin-left: 20px;
-    background: silver;
-}
+
 
 #head_shot_pic {
    height: 100%;
@@ -75,10 +67,10 @@
 }
 
 #about_the_about h3 {
-    width: 410px;
+    width: 430px;
     height: 45px;
     vertical-align: top;
-    background: black;
+    background: linear-gradient(rgb(180, 180, 184), rgb(132, 130, 144), rgb(180, 180, 184));
     color: white;
 }
 
@@ -91,4 +83,115 @@
 
 #about_text {
     margin: 10px;
+}
+
+.bottom_content {
+    height: auto;
+    width: 293px;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 20px;
+    
+    margin-bottom: 15px;
+}
+
+#about, .bottom_content {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(220, 205, 220));
+}
+
+.bottomHeadingDivs, .techsDivs {
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(rgb(180, 180, 184), rgb(132, 130, 144), rgb(180, 180, 184));
+    color: white;
+}
+
+.bottomHeadingDivs h3, .techsDivs h4 {
+    margin-top: 0px;
+    line-height: 40px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+.picDivs {
+    width: 100%;
+    height: 120px;
+}
+
+.pics {
+    width: 100%;
+    height: 100%;
+}
+
+.bottomTextDivs {
+    margin: 10px;
+}
+
+.techIcons {
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    margin: 2px;
+}
+
+.techIconDivs {
+    margin: 16px;
+}
+
+.greenBtnDivs {
+    width: 100%;
+    height: auto;
+}
+
+.greenBtn {
+    width: auto;
+    margin: 20px auto;
+    background: rgb(64, 125, 94);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgb(63, 91, 79);
+}
+
+.btnText {
+    padding: 5px;
+}
+
+#modeBtn {
+    width: 100px;
+}
+
+#famBtn {
+    width: 130px;
+}
+
+#fiveBtn {
+    width: 100px;
+}
+
+.smPics {
+    height: 15px;
+    width: 15px;
+}
+
+.smText {
+    font-size: 15px;
+}
+
+#contactInfo {
+    margin-left: 368px; 
+    padding-top: 1px; 
+}
+
+#socialMedia {
+    margin-left: 325px;
+    padding-bottom: 5px;
+}
+
+#outro {
+    height: 100px;
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
 }
